@@ -216,6 +216,18 @@
     cursor: default;
   }
 
+  .work-card-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .work-card-link:focus-visible {
+    outline: 2px solid var(--text);
+    outline-offset: 4px;
+  }
+
   .work-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 20px 60px rgba(0,0,0,0.06);
@@ -515,6 +527,15 @@
           <span class="date">2026.02</span>
         </div>
       </div>
+      <a class="work-card work-card-link" href="https://moving.ne.jp/" target="_blank" rel="noopener noreferrer" aria-label="株式会社Movingのコーポレートサイトを新しいタブで開く">
+        <div class="thumb">
+          <img src="https://storage.googleapis.com/production-os-assets/assets/01b761fc-7230-40eb-aa0e-2039a5a7ba69" alt="株式会社Moving コーポレートサイト">
+        </div>
+        <div class="card-info">
+          <h3>株式会社Moving様のコーポレートサイトを制作させていただきました。</h3>
+          <span class="date">WEB SITE ↗</span>
+        </div>
+      </a>
     </div>
   </div>
 </section>
